@@ -135,7 +135,7 @@ export class TaskStatsComponent {
           </div>
           <div class="stat-value">${uniqueCourses}</div>
           <p class="stat-subtext">
-            <span style="color: #2563eb; font-weight: 600;">📚 Mata kuliah aktif</span>
+            <span style="color: #f78214; font-weight: 600;">📚 Mata kuliah aktif</span>
           </p>
         </div>
       </section>

@@ -36,7 +36,7 @@ Aplikasi web pengelola tugas kuliah modern dan responsif yang dibangun menggunak
 - **Latar Belakang**: Abu-abu sangat muda bersih (`#f8fafc`).
 - **Kartu Bento**: Putih murni (`#ffffff`) dengan sudut melengkung besar (`border-radius: 1.5rem` / 24px).
 - **Bayangan (Soft Shadows)**: Halus dan bertingkat dengan efek hover lift (`transform: translateY(-3px)`).
-- **Aksen Warna**: Biru Modern (`#2563eb` & `#1d4ed8`).
+- **Aksen Warna**: Oranye Hangat & Modern (`#f78214`).
 - **Tipografi**: Font **Manrope** dari Google Fonts (bobot 400, 500, 600, 700, 800).
 - **Responsif**: Mendukung tampilan Desktop, Tablet, hingga Layar Ponsel Mobile.
 
