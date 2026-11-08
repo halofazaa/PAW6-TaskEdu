@@ -1,6 +1,7 @@
 # Taskademik - Web Pengelola Tugas Kuliah (Task Manager)
 
 Aplikasi web pengelola tugas kuliah modern dan responsif yang dibangun menggunakan **Vite** dan **TypeScript** murni. Mengadopsi bahasa desain **Bento Grid** yang bersih, minimalis, dan berorientasi pada produktivitas mahasiswa.
+<img width="1593" height="857" alt="Screenshot 2026-11-08 140117" src="https://github.com/user-attachments/assets/a26ea9b4-ccad-4360-a0b7-224a2702b3d7" />
 
 ---
 
