@@ -67,10 +67,10 @@ export class TaskStatsComponent {
     return `
       <section class="bento-stats-grid" aria-label="Statistik Tugas">
         <!-- Bento 1: Progress Penyelesaian (Hero Card) -->
-        <div class="bento-card bento-col-4 bento-hero">
+        <div class="bento-card bento-col-3 bento-hero">
           <div>
             <div class="bento-hero-header">
-              <span class="stat-label">Progres Keseluruhan</span>
+              <span class="stat-label">Progres</span>
               <div class="bento-icon-tag tag-blue">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
@@ -79,7 +79,7 @@ export class TaskStatsComponent {
             </div>
             <div class="stat-value">${stats.completionRate}%</div>
             <p class="stat-subtext">
-              <strong>${stats.completed}</strong> dari <strong>${stats.total}</strong> tugas kuliah terselesaikan
+              <strong>${stats.completed}</strong> dari <strong>${stats.total}</strong> tugas selesai
             </p>
           </div>
           <div class="progress-bar-container">
@@ -122,17 +122,21 @@ export class TaskStatsComponent {
         </div>
 
         <!-- Bento 4: Mata Kuliah Aktif -->
-        <div class="bento-card bento-col-2">
+        <div class="bento-card bento-col-3">
           <div class="bento-hero-header">
             <span class="stat-label">Mata Kuliah</span>
             <div class="bento-icon-tag tag-blue">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"></path>
+                <path d="M6 6h10"></path>
+                <path d="M6 10h10"></path>
               </svg>
             </div>
           </div>
           <div class="stat-value">${uniqueCourses}</div>
-          <p class="stat-subtext">Mata kuliah aktif</p>
+          <p class="stat-subtext">
+            <span style="color: #2563eb; font-weight: 600;">📚 Mata kuliah aktif</span>
+          </p>
         </div>
       </section>
     `;
